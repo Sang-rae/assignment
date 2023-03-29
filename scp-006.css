@@ -1,0 +1,121 @@
+
+header{
+ 
+    display: flex;
+   align-items: center;
+    justify-content: center;
+   
+   
+ 
+ }
+ .logo-img{
+    margin-right: 10px;
+    text-align: center;
+    max-width: 100%;
+   height: auto;
+   
+ }
+ @media screen and (max-width: 768px) {
+     
+   img {
+       width: 100%;
+     }
+     p {
+         font-size: 0.8rem;
+       }
+     
+   }
+   
+   @media screen and (min-width: 769px) {
+     
+    img {
+       width: 100%;
+     }
+       
+     p {
+         font-size: 1.2rem;
+       }
+   }
+ .name p{
+     font-size: 3rem;
+     font-weight: bold; 
+ }
+ 
+ 
+ 
+   
+   
+ .motto {
+     text-align: center;
+     font-size: larger;
+     font-family: fantasy;
+     padding-bottom:20px;
+ }
+ 
+ .nav li {
+     display: inline;
+     padding:7px;
+     font-size: 1.7rem;
+     align-items: center;
+     
+ }
+ .icon-bar{
+     font-size: 2rem;
+ }
+ .nav {
+     
+     text-align: center;
+     background-color:#1a4e85 ;
+     padding:10px;
+     box-sizing: content-box;
+     text-decoration: solid;
+     border: 3px solid rgb(2, 2, 104);
+     border-radius: 10px;
+       }
+
+ 
+ .nav a {
+         color: white;
+       }
+  a:hover {
+     background-color: #e44a1c;
+  }
+       
+ 
+ h1,h2 {
+     text-align: center;
+ }
+ .container1 h3,.container2 h3{
+    background-color: #60a9f7;
+    font-size: 30px;
+    text-align: center;
+    padding:20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    
+  
+    
+ }
+ .container1,.container2{
+   width: 80%;
+   border: 1px solid black;
+   border-radius: 20px;
+   display:block;
+   margin-left: auto;
+   margin-right: auto;
+   background-color:#edeef3 ;
+   text-align: justify;
+   padding:20px;
+  
+ }
+ .container2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+ }
+ ol {
+    list-style-type: upper-roman;
+    font-family:Verdana, sans-serif;
+ }
+ h1,h2,h3,p{
+    font-family:Verdana, sans-serif;
+}

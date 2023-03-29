@@ -1,0 +1,63 @@
+
+header{
+ 
+   display: flex;
+  align-items: center;
+   justify-content: center;
+  
+  
+
+}
+ 
+.logo-img{
+  margin-right: 10px;
+  text-align: center;
+  max-width: 100%;
+  height: auto;
+}
+@media screen and (max-width: 768px) {
+   /* Set smaller image size for mobile devices */
+ img {
+     width: 100%;
+   }
+ }
+ 
+ @media screen and (min-width: 769px) {
+   /* Set larger image size for desktops */
+  img {
+     width: 100%;
+   }
+ }
+.name p{
+   font-size: 3.2rem;
+   font-weight: bold; 
+}
+.motto {
+   text-align: center;
+   font-size: larger;
+   font-family: fantasy;
+   margin-bottom: 30px;;
+   
+}
+
+ .flex-sm-column{
+    text-align: center;
+    font-size: 60px;
+    justify-content: center;
+    box-sizing: border-box;
+
+    
+ }
+ .nav-item{
+ 
+    text-align: center;
+    background-color:#2978cc;
+    color:white;
+    
+ }
+ .nav-item a{
+   color:white;
+ }
+ a:hover{
+   background-color: #f3c397;
+ }
